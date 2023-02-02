@@ -1,0 +1,20 @@
+/* Mobile and Tablet */
+@media (max-width: 1023px) {
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+/* Mobile */
+@media (max-width: 739px) {
+  /* @keyframes mobileSearchSideIn {
+    form {
+      opacity: 0;
+      top: calc(var(--header-height) / 2);
+    }
+    to {
+      opacity: 1;
+      top: var(--header-height);
+    }
+  } */
+}
