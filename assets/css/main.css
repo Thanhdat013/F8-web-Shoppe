@@ -76,6 +76,9 @@ a {
 .header__nav-item-separate a {
   color: #fff;
   text-align: center;
+  font-size: 0.85125rem;
+  line-height: 1;
+  font-weight: 300;
 }
 .header__nav-item-separate:hover a:hover,
 .header__nav-item-separate:hover {
@@ -287,4 +290,44 @@ a {
   border-color: transparent transparent var(--white-color) transparent;
   top: -22px;
   right: 18%;
+}
+
+.notify__language::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  height: 6px;
+  top: -6px;
+}
+
+/* Header search */
+.header__search {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.header__search-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header__search-left-link {
+  display: flex;
+  position: relative;
+}
+
+.shopee-svg-icon {
+  height: 35px;
+  fill: var(--white-color);
+}
+
+.shopee-svg-text {
+  display: inline-block;
+  top: -12px;
+  position: absolute;
+  margin-left: 12px;
 }
