@@ -137,7 +137,7 @@
           </div>
 
           <div class="header__search">
-            <div class="header__search-left c-4">
+            <div class="header__search-left c-6">
               <div class="header__search-left-logo">
                 <a href="" class="search__left-img">
                   <svg
@@ -181,13 +181,29 @@
                 </a>
               </div>
             </div>
-            <div class="header__search-right c-8">
+            <div class="header__search-right c-6">
               <div class="header__search-right-searchbar">
                 <div class="search__input">
-                  <input type="text" class="search__input-search" />
+                  <input
+                    type="text"
+                    class="search__input-search-find"
+                    placeholder="Tìm trong shop này"
+                  />
                   <div class="search__input-find">
-                    Tìm trong shop này
-                    <i class="fa-solid fa-chevron-down"></i>
+                    <span class="search__input-find-desc">Trong shop này</span>
+                    <i
+                      class="fa-solid fa-chevron-down search__input-find-icon"
+                    ></i>
+
+                    <div class="search__input-find-select">
+                      <div class="search__input-find-item">
+                        Trong shop này
+                        <i
+                          class="fa-solid fa-check search__input-find-check"
+                        ></i>
+                      </div>
+                      <div class="search__input-find-item">Tại Shopee mall</div>
+                    </div>
                   </div>
                 </div>
                 <button class="search__btn">
